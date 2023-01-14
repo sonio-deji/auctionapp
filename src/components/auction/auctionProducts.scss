@@ -1,0 +1,38 @@
+.auctionProducts {
+    display: flex;
+    overflow: scroll;
+    gap: 43px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .product {
+       min-width: 485px; 
+        position: relative;
+        transition: transform 1s ease-in-out;
+        :hover {
+            transform: scale(0.8);
+        }
+        .img {
+            width: 100%;
+            height: 100%;
+        }
+        @media (max-width: 890px) {
+            width: 228px;
+        }
+       .time {
+        position: absolute;
+        bottom: 40px;
+        background: rgba(245, 244, 244, 0.24);
+        border: 0.5px solid #FFFFFF;
+        backdrop-filter: blur(1.5px);
+        border-radius: 8px;
+        width: 398px;
+        padding: 11px 30px;
+        border: none;
+        color: white;
+        font-size: 28px;
+        left: 40px;
+       }
+    }
+}

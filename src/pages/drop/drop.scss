@@ -1,0 +1,88 @@
+.drop {
+    max-width: 1200px;
+    margin: auto;
+
+    .directory {
+        margin-bottom: 61px;
+        p {
+            font-weight: 500;
+            font-size: 24px;
+            color: rgba(188, 183, 183, 1);
+            span {
+                color: black;
+            }
+        }
+        @media (max-width: 890px) {
+            display: none;
+        }
+    }
+    .upcomingDrops {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        margin-bottom: 87px;
+        width: 100%;
+        text-align: center;
+
+        @media (max-width: 890px) {
+            max-width: 291px;
+            margin: auto;
+            margin-bottom: 36px;
+        }
+        .title {
+            font-size: 48px;
+            font-weight: 500;
+            @media (max-width: 890px) {
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+        }
+        .note {
+            font-size: 32px;
+        @media (max-width: 890px) {
+                font-size: 18px;
+                color: #616161;
+            }
+        }
+        button {
+            width: 420px;
+            height: 84px;
+            font-size: 36px;
+            font-weight: 500;
+            border: 1px solid black;
+            border-radius: 10px;
+            background: transparent;
+            @media (max-width: 890px) {
+                    font-size: 22px;
+                    width: 100%;
+                }
+        }
+    }
+    .dropItems {
+        margin-bottom: 86px;
+    }
+    .seeMoreContainer {
+      display: flex;
+      align-items: center;
+      margin-bottom: 100px;
+        @media (max-width: 890px) {
+               display: none;
+            }
+    .seeMore {
+            width: 249px;
+            height: 73px;
+            font-weight: 500;
+            font-size: 30px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            text-align: center;
+            background: transparent;
+            margin: auto;
+        }
+    }
+    .newsletter {
+        margin-bottom: 60px;
+    }
+
+}

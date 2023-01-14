@@ -1,0 +1,40 @@
+.confirmationPage {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .imgContainer {
+        width: 454px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .message {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+        text-align: center;
+        .thankYou {
+           font-weight: 500;
+           font-size: 40px;
+           @media (max-width: 890px) {
+            font-size: 18px;
+           }
+        }
+        .cheers {
+            font-size: 30px;
+            @media (max-width: 890px) {
+                font-size: 16px;
+            }
+            span {
+            background: linear-gradient(94.97deg, #78A3AD 24.64%, rgba(192, 86, 9, 0.49) 118.54%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}

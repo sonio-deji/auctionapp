@@ -1,0 +1,8 @@
+.cart {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    @media (max-width: 890px) {
+            padding: 10px;
+        }
+}

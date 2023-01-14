@@ -1,0 +1,37 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 414px;
+    padding: 24px 30px;
+    background-color: white;
+    height: 100vh;
+    z-index: 70000;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            font-family: 'STIX Two Text', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        .close {
+            cursor: pointer;
+            .closeIcon {
+                font-size: 40px;
+            }
+        }
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+        p {
+            font-weight: 500;
+            font-size: 24px;
+            color: rgba(51, 51, 51, 1);
+        }
+    }
+}

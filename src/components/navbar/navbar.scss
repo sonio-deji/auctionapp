@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 52px auto;
+    max-width: 1200px;
+    padding-left: 10px;
+    .menu {
+        display: none;
+        cursor: pointer;
+        .menuIcon {
+            font-size: 30px;
+        }
+        @media (max-width: 890px) {
+            display: block;
+        }
+    }
+    .logo {
+        flex: 1;
+        font-family: 'STIX Two Text', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        
+        @media (max-width: 890px) {
+            flex: unset;
+        }
+    }
+    .navigation{
+        flex: 2;
+        display: flex;
+        justify-content: space-between;
+        max-width: 361px;
+
+        @media (max-width: 890px) {
+                display: none;
+                flex: unset;
+            }
+        span{
+            font-weight: 500;
+            font-size: 24px;
+        }
+    }
+    .cartSec{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 31.5px;
+        @media (max-width: 890px) {
+                flex: unset;
+                gap: 10px;
+            }
+        .notificationIconContainer {
+            position: relative;
+            .notificationIcon {
+                    @media (max-width: 890px) {
+                        display: none;
+                    }
+                }
+            .notificationDot {
+                height: 5px;
+                width: 5px;
+                background-color: red;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                right: 0;
+
+                @media (max-width: 890px) {
+                        display: none;
+                    }
+            }
+        }
+        .notificationContainer {
+            position: relative;
+            .notificationDot {
+                height: 5px;
+                width: 5px;
+                background-color: red;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}

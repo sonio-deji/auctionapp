@@ -1,0 +1,131 @@
+.shippingDetails {
+    display: flex;
+    max-width: 1200px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 105px;
+    justify-content: center;
+    height: 100%;
+    @media (max-width: 1200px) {
+        gap: 10px;
+    }
+    @media (max-width: 890px) {
+        margin-top: 30px;
+    }
+    .left {
+        flex: 1;
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                input{
+                    background: #F2F2F2;
+                    border: 0.5px solid #747474;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 76px;
+                    padding-left: 54px;
+                    font-size: 26px;
+                    outline: none;
+                    @media (max-width: 890px) {
+                            font-size: 16px;
+                            padding-left: 20px;
+                        }
+                    &::placeholder {
+                        font-size: 26px;
+
+                    @media (max-width: 890px) {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                
+                select {
+                    background: #F2F2F2;
+                    border: 0.5px solid #747474;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 76px;
+                    padding-left: 54px;
+                    color: #888888;
+                    font-size: 26px;
+                    @media (max-width: 890px) {
+                          font-size: 16px;
+                          padding-left: 20px;
+                        }
+                    option {
+                    color: #888888;
+                    font-size: 26px;
+                    }
+                }
+                .checkbox {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 10px;
+                    color: #747474;
+                    font-size: 20px;
+                @media (max-width: 890px) {
+                        font-size: 13px;
+                    }
+                    input {
+                        width: 20px;
+                    }
+                }
+            }
+            label {
+                font-size: 26px;
+                color: #888888;
+                @media (max-width: 890px) {
+                      font-size: 18px;
+                    }
+            }
+            .countryPostal {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 20px;
+                .country {
+                    flex: 1;
+                    select {
+                        padding: 10px;
+                    }
+                }
+                .postal {
+                    flex: 1;
+                }
+            }
+        }
+        button {
+            background: #3341C1;
+            border-radius: 8px;
+            padding: 20px;
+            color: white;
+            border: none;
+            font-weight: 500;
+            font-size: 32px;
+            cursor: pointer;
+
+            @media (max-width: 890px) {
+                   font-size: 18px;
+                }
+        }
+        .link {
+            @media (min-width: 890px) {
+                display: none;
+            }
+        }
+    }
+    .right {
+        flex: 1;
+        @media (max-width: 890px) {
+               display: none;
+            }
+    }
+}

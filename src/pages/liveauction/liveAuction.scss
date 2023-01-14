@@ -1,0 +1,266 @@
+.liveAuction {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    @media (max-width: 600px) {
+        padding: 0;
+    }
+    .directory {
+        font-weight: 500;
+        font-size: 24px;
+        color: rgba(188, 183, 183, 1);
+        margin-bottom: 27px;
+        span {
+            color: black;
+        }
+    @media (max-width: 600px) {
+        display: none;
+    }
+    }
+
+    .container {
+        display: flex;
+        max-width: 1200px;
+        border: 0.5px solid gray;
+
+        @media (max-width: 600px) {
+            border: none;
+        }
+        .left {
+            flex: 1;
+            position: relative;
+            @media (max-width: 600px) {
+                height: 100vh;
+                overflow-y: hidden;
+            }
+            .top {
+                position: absolute;
+                top: 0;
+                display: flex;
+                justify-content: space-between;
+                width: 95%;
+                color: white;
+
+                @media (max-width: 600px) {
+                    flex-direction: row-reverse;
+                    justify-content: unset;
+                    top: 15px;
+                    align-items: center;
+                }
+                .closeButton {
+                    width: 49px;
+                    height: 49px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgba(184, 180, 180, 0.49);
+                    border-radius: 50%;
+                    @media (max-width: 600px) {
+                            background: transparent;
+                        }
+                }
+                button {
+                    padding: 7px 31px;
+                    background: #006CA2;
+                    color: white;
+                    border: none;
+                    border-radius: 20px;
+                    font-family: 'inter', sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                    border-radius: 5px;
+                }
+            }
+            .middle {
+                position: absolute;
+                top: 50%;
+                color: white;
+                margin: auto;
+                font-weight: 600;
+                font-size: 48px;
+                text-align: center;
+                width: 100%;
+
+                @media (max-width: 600px) {
+                    font-size: 30px;
+                }
+            }
+            .bottom {
+                position: absolute;
+                bottom: 57px;
+                color: white;
+                left: 57px;
+                font-family: 'inter', sans-serif;
+                font-size: 24px;
+
+                @media (max-width: 600px) {
+                    top: 23px;
+                    left: 10px;
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .right {
+            flex: 1;
+            position: relative;
+            @media (max-width: 600px) {
+                position: absolute;
+                height: 300px;
+                bottom: 0;
+                flex: unset;
+                width: 100%;
+            }
+            .messagingSection {
+                display: flex;
+                flex-direction: column;
+                gap: 31px;
+                height: 700px;
+                overflow-y: scroll;
+                @media (max-width: 600px) {
+                    height: 200px;
+                    gap: 10px;                    
+                }
+            .sender {
+                    display: flex;
+                    align-items: center;
+                    gap: 26px;
+                    @media (max-width: 600px) {
+                            color: white;
+                        }
+                    .senderImg {
+                        width: 70px;
+                        height: 70px;
+                    @media (max-width: 600px) {
+                            width: 32px;
+                            height: 32px;
+                        }
+                    }
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    .text {
+                        font-weight: 500;
+                        font-size: 22px;
+                        @media (max-width: 600px) {
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+                        .op {
+                            color: rgba(51, 51, 51, 1);
+                            font-weight: 400;
+                            font-size: 22px;
+                        @media (max-width: 600px) {
+                                font-size: 13px;
+                                font-weight: 500;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            .creatorTag {
+                font-family: 'Inter', sans-serif;
+                font-style: italic;
+                font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 26px;
+                color: #BAB9B9;
+                bottom: 50px;
+                position: absolute;
+                @media (max-width: 600px) {
+                    display: none;
+                }
+            }
+            .sendingSection {
+                position: absolute;
+                bottom: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                .inputSection {
+                    display: flex;
+                    align-items: center;
+                    background: linear-gradient(94.97deg, #78A3AD 24.64%, rgba(192, 86, 9, 0.49) 118.54%);
+                    padding: 2px;
+                    height: 65px;
+                    border-radius: 25px;
+                    width: 404px;
+
+                    .background {
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        background-color: white;
+                        border-radius: 25px;
+                        align-items: center;
+                    }
+                    .sendOutlined {
+                        flex: 1;
+
+                        .sendIcon {
+                            transform: rotate(-30deg);
+                        }
+                    }
+                    input {
+                        border: none;
+                        background-color: white;
+                        outline: none;
+                        flex: 9;
+                        width: 90%;
+                        font-weight: 500;
+                        font-size: 22px;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 25px;
+                        &::placeholder {
+                            font-weight: 500;
+                            font-size: 22px;
+                        }
+                    }
+                }
+                .likeButton {
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    @media (max-width: 600px) {
+                        border: none;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .upcomingDrops {
+        display: flex;
+        align-items: center;
+        margin-top: 38px;
+        gap: 28px;
+        font-size: 36px;
+
+        .arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 78px;
+            height: 78px;
+            color: gray;
+            border: 1px solid black;
+            border-radius: 50%;
+            font-size: 36px;
+        }
+        @media (max-width: 600px) {
+            display: none;
+        }
+    }
+}

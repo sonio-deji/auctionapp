@@ -1,0 +1,92 @@
+.products {
+    overflow-x: scroll;
+
+    @media (max-width: 890px) {
+            overflow: hidden;
+        }
+    .container {
+        display: flex;
+        gap: 50px;
+        position: relative;
+        transition: transform 1s ease-in-out;
+        @media (max-width: 890px) {
+                gap: unset;
+            }
+        .product {
+        border: 1px solid #333333;
+        display: flex;
+        min-width: 529px;
+        height: 579px;
+        flex-direction: column;
+        padding: 26px 41px;
+        gap: 25px;
+        @media (max-width: 890px) {
+                min-width: 100%;
+                padding: 0 15px;
+            }
+            .like {
+                align-self: flex-end;
+                font-size: 30px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .title {
+                display: flex;
+                justify-content: space-between;
+                p {
+                    font-size: 30px;
+                    font-weight: 500;
+                    color: #333333;
+                }
+                .price {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    img {
+                        width: 27px;
+                        height: 34px;
+                    }
+
+                    span {
+                        font-weight: 500;
+                        font-size: 32px;
+                        color: #333333;
+                    }
+                }
+            }
+
+        }
+    .directionContainer {
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        right: 16px;
+
+        @media (min-width: 890px) {
+            display: none;
+        }
+        .direction {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .arrow {
+                border-radius: 50%;
+                height: 59px;
+                width: 59px;
+                border: 1px solid white;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .arrowImg {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+    }
+}
