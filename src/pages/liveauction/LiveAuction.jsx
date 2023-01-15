@@ -12,7 +12,7 @@ const LiveAuction = () => {
 
       <div className="container">
         <div className="left">
-          <img src="/src/assets/auctionpic.png" />
+          <img src="/assets/auctionpic.png" />
           <div className="top">
             <div className="closeButton">
               <Link to={"/auction"} style={{ color: "inherit" }}>
@@ -28,7 +28,7 @@ const LiveAuction = () => {
           <div className="messagingSection">
             <div className="sender">
               <div className="senderImg">
-                <img src="/src/assets/creator1.png" alt="" />
+                <img src="/assets/creator1.png" alt="" />
               </div>
               <div className="text">
                 <p className="op">Opeyemi Taiwo</p>
@@ -37,7 +37,7 @@ const LiveAuction = () => {
             </div>
             <div className="sender">
               <div className="senderImg">
-                <img src="/src/assets/creator1.png" alt="" />
+                <img src="/assets/creator1.png" alt="" />
               </div>
               <div className="text">
                 <p className="op">Opeyemi Taiwo</p>
@@ -46,7 +46,7 @@ const LiveAuction = () => {
             </div>
             <div className="sender">
               <div className="senderImg">
-                <img src="/src/assets/creator1.png" alt="" />
+                <img src="/assets/creator1.png" alt="" />
               </div>
               <div className="text">
                 <p className="op">Opeyemi Taiwo</p>
@@ -55,7 +55,7 @@ const LiveAuction = () => {
             </div>
             <div className="sender">
               <div className="senderImg">
-                <img src="/src/assets/creator1.png" alt="" />
+                <img src="/assets/creator1.png" alt="" />
               </div>
               <div className="text">
                 <p className="op">Opeyemi Taiwo</p>
@@ -64,7 +64,7 @@ const LiveAuction = () => {
             </div>
             <div className="sender">
               <div className="senderImg">
-                <img src="/src/assets/creator1.png" alt="" />
+                <img src="/assets/creator1.png" alt="" />
               </div>
               <div className="text">
                 <p className="op">Opeyemi Taiwo</p>

@@ -20,13 +20,13 @@ const ProductDetail = () => {
       <div className="picture">
         <div className="productContainer">
           <div className="left">
-            <img src="/src/assets/productDesc.png" alt="" />
+            <img src="/assets/productDesc.png" alt="" />
           </div>
           <div className="right">
             <div className="topPart">
               <span className="imageName">Boolean Egyptian</span>
               <div className="priceTag">
-                <img src="/src/assets/eth.png" alt="" />
+                <img src="/assets/eth.png" alt="" />
                 <span className="price">0.09</span>
               </div>
             </div>

@@ -31,7 +31,7 @@ const Products = () => {
             <div className="title">
               <p>{product.title}</p>
               <div className="price">
-                <img src="/src/assets/eth.png" alt="" />
+                <img src="/assets/eth.png" alt="" />
                 <span>{product.price}</span>
               </div>
             </div>

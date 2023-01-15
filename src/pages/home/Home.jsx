@@ -128,7 +128,7 @@ const Home = () => {
             <div className="container">
               <img
                 className="productImage"
-                src="/src/assets/booleanEgyptian.png"
+                src="/assets/booleanEgyptian.png"
                 alt=""
               />
               <div className="viewProduct">
@@ -148,11 +148,11 @@ const Home = () => {
               </p>
               <div className="creators">
                 <div className="creatorImg">
-                  <img src="/src/assets/creator1.png" alt="" />
-                  <img src="/src/assets/creator2.png" alt="" />
-                  <img src="/src/assets/creator3.png" alt="" />
-                  <img src="/src/assets/creator4.png" alt="" />
-                  <img src="/src/assets/creator5.png" alt="" />
+                  <img src="/assets/creator1.png" alt="" />
+                  <img src="/assets/creator2.png" alt="" />
+                  <img src="/assets/creator3.png" alt="" />
+                  <img src="/assets/creator4.png" alt="" />
+                  <img src="/assets/creator5.png" alt="" />
                 </div>
                 <span>64 major creators</span>
                 <div className="direction">
@@ -165,7 +165,7 @@ const Home = () => {
             <div className="container">
               <img
                 className="productImage"
-                src="/src/assets/booleanEgyptian2.png"
+                src="/assets/booleanEgyptian2.png"
                 alt=""
               />
               <div className="viewProduct">
@@ -184,11 +184,11 @@ const Home = () => {
               </p>
               <div className="creators">
                 <div className="creatorImg">
-                  <img src="/src/assets/creator1.png" alt="" />
-                  <img src="/src/assets/creator2.png" alt="" />
-                  <img src="/src/assets/creator3.png" alt="" />
-                  <img src="/src/assets/creator4.png" alt="" />
-                  <img src="/src/assets/creator5.png" alt="" />
+                  <img src="/assets/creator1.png" alt="" />
+                  <img src="/assets/creator2.png" alt="" />
+                  <img src="/assets/creator3.png" alt="" />
+                  <img src="/assets/creator4.png" alt="" />
+                  <img src="/assets/creator5.png" alt="" />
                 </div>
                 <span>64 major creators</span>
                 <div className="direction">
@@ -201,7 +201,7 @@ const Home = () => {
             <div className="container">
               <img
                 className="productImage"
-                src="/src/assets/booleanEgyptian3.png"
+                src="/assets/booleanEgyptian3.png"
                 alt=""
               />
               <div className="viewProduct">
@@ -220,11 +220,11 @@ const Home = () => {
               </p>
               <div className="creators">
                 <div className="creatorImg">
-                  <img src="/src/assets/creator1.png" alt="" />
-                  <img src="/src/assets/creator2.png" alt="" />
-                  <img src="/src/assets/creator3.png" alt="" />
-                  <img src="/src/assets/creator4.png" alt="" />
-                  <img src="/src/assets/creator5.png" alt="" />
+                  <img src="/assets/creator1.png" alt="" />
+                  <img src="/assets/creator2.png" alt="" />
+                  <img src="/assets/creator3.png" alt="" />
+                  <img src="/assets/creator4.png" alt="" />
+                  <img src="/assets/creator5.png" alt="" />
                 </div>
                 <span>64 major creators</span>
                 <div className="direction">
@@ -242,7 +242,7 @@ const Home = () => {
           </span>
           <hr />
           <div className="imgContainer">
-            <img src="/src/assets/upcomingimg.png" alt="" />
+            <img src="/assets/upcomingimg.png" alt="" />
             <div className="details">
               <div className="left">
                 <span className="position">01</span>

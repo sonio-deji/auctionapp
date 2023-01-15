@@ -4,7 +4,7 @@ const ConfirmationPage = () => {
   return (
     <div className="confirmationPage">
       <div className="imgContainer">
-        <img src="/src/assets/delivery.png" alt="" />
+        <img src="/assets/delivery.png" alt="" />
       </div>
       <div className="message">
         <p className="thankYou">Hey Celestina, thank you for your purchase.</p>
