@@ -17,7 +17,7 @@ import CheckoutHeader from "./components/checkoutHeader/CheckoutHeader";
 import ShippingDetails from "./pages/shippingDetails/ShippingDetails";
 import PaymentDetails from "./pages/paymentDetails/PaymentDetails";
 import ConfirmationPage from "./pages/confirmationPage/ConfirmationPage";
-import "./app.scss";
+import "./App.scss";
 
 function App() {
   const Layout = () => {
